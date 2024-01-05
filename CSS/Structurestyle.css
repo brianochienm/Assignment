@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-display: "times new roman";
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+/* background colour of the header, and formatting the header in general*/
+.header{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(202, 202, 199);
+}
+/* background colour of top navigation*/
+.topnav{
+    background-color: rgb(8, 7, 7);
+    overflow: hidden;
+}
+/* Colour of the text in the top navigation*/
+.topnav a{
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    float:left;
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+}
+/* colour of the text in the top navigation when you hover the top navigation*/
+.topnav a:hover{
+    color: rgb(153, 12, 12);
+    text-decoration: none;
+    background-color: beige;
+}
+
+/* Right-aligned links*/
+.topnav-right{
+    float:right;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.content{
+    float: center;
+    width: 66.7%;
+    padding: 50px;
+}
+.sidebar{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+}
+.footer{
+    text-align: center;
+    font-size: small;
+    color:beige;
+    padding: 10px;
+    background-color: rgb(37, 37, 37); 
+}
+@media screen and (max-width: 800px){
+ .content, .sidebar{
+    width: 100%;   
+ }  
+}
+
+
+
+
+
+
+
+
+
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+
+/* Optional: Add some additional styles for navigation or other elements */
